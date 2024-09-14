@@ -13,7 +13,7 @@
 </h4>
 <br>
 <h3 align = "center">
-<a href="[https://matealves.github.io/modelodesite/](http://127.0.0.1:5500/index.html)" target="_blank">Acesse o site - clique aqui!
+<a href="http://127.0.0.1:5500/index.html" target="_blank">Acesse o site - clique aqui!
 </a> 
 </h3>
 
