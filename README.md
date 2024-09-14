@@ -1,6 +1,3 @@
-<p align = "center">
-  <img src = "pagesimple_readme.png" alt = "mockup" />
-</p>
 
 <br>
 
@@ -54,7 +51,7 @@ Um modelo de um uma página inicial com um catálogo de roupas, com o layout sim
 Entre em contato através do link a seguir!
 <br>
 <br>
-<a href="https://www.linkedin.com/in/Rafael Teixeira/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/rafael-teixeira-b89" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 <br>
 <br>
