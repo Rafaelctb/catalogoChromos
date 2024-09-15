@@ -25,7 +25,7 @@
 
 <div id="visao">
 <h1>  Visão geral </h1>
-Um modelo de um uma página inicial com um catálogo de roupas, com o layout simples e moderno, totalmente responsivo. Menu para desktop e para mobile, logotipo visível em todo o site. Contém um link direto para o WhatsApp.
+Um modelo de um uma página inicial com um catálogo de roupas, com o layout simples e moderno, totalmente responsivo. Menu para desktop e para mobile, logotipo visível em todo o site. Contém um link direto para o WhatsApp e carrino para adicionae e remover os produtos.
 
 </div>
 <br>
