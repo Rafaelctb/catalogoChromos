@@ -1,133 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/bag.png" type="image/x-icon">
-    <title>Catálogo Chromos Streetwear</title>
-</head>
-
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chromos Streetwear</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="scripts/produtos.js"></script>
+    <link rel="stylesheet" href="styles.css" />
     <header>
-        <div class="topo">
-            <div class="topoIn">
-                <div class="logomarca">
-                    <abbr title="Logo Chromos"><img src="iimg/logoChromos.png" alt="logoChromos"></abbr>
-                </div>
-                <nav>
-                    <div class="menu">
-                        <div class="menuDesktop">
-                            <ul>
-                                <li><a href="Início.html">Início</a></li>
-                                <li><a href="Sobre.html">Sobre</a></li>
-                                <li><a href="Produtos.html">Produtos</a></li>
-                            </ul>
-                        </div>
-                        <section class="menuMobile">
-                            <div class="iconMenu" id="botaoMobile">
-                                <p>&#9776;</p>
-                            </div>
-                            <div id="menuSusp" class="menuSuspenso">
-                                <ul>
-                                <li><a href="index.html">Início</a></li>
-                                <li><a href="Sobre.html">Sobre</a></li>
-                                <li><a href="Produtos.html">Produtos</a></li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <section>
-            <div class="banner">
-                <div class="bannerIn">
-                    <div class="bannerEsquerda">
-                        <div class="fraseEfeito">
-                            Nova coleção disponível!
-                        </div>
-                        <div class="frase2">
-                            Confira os produtos CHROMOS Streetwear
-                        </div>
-                        <div class="botao">
-                            <button>
-                            <a href="Produtos.html">Acessar Produtos</a>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="bannerDireita">
-                        <img src="img/shopping-animate.svg" alt="animate">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </header>
-    <section class="ctt">
-        <div class="whats">
-            <a href="https://api.whatsapp.com/send?phone=+554499364993" target="_blank">
-                <img src="img/whatsapp-logo.png" alt="WhatsApp">
-            </a>
-        </div>
-    </section>
-    <section>
-        <div class="conteudo">
-            <div class="conteudoInterno">
-                <div class="outrosProdutos">
-                    <strong>Produtos em Destaque</strong>
-                </div>
-                <div class="fotos">
-                    <section class="imgs">
-                        <img src="img/BackgroundEraser_20240726_004454705.jpg" alt="produto1">
-                        <section class="but">
-                            <button>
-                                Ver Produto
-                            </button>
-                        </section>
-                    </section>
-                    <section class="imgs">
-                        <img src="img/BackgroundEraser_20240726_003333464.jpg" alt="produto2">
-                        <section class="but">
-                            <button>
-                                Ver Produto
-                            </button>
-                        </section>
-                    </section>
-                    <section class="imgs">
-                        <img src="img/BackgroundEraser_20240723_220104455.jpg" alt="produto3">
-                        <section class="but">
-                            <button>
-                                Ver Produto
-                            </button>
-                        </section>
-                    </section>
-                    <section class="imgs">
-                        <img src="img/BackgroundEraser_20240722_224152426.jpg" alt="produto4">
-                        <section class="but">
-                            <button>
-                                Ver Produto
-                            </button>
-                        </section>
-                    </section>
-                    <section class="imgs">
-                        <img src="img/BackgroundEraser_20240722_223416571.jpg" alt="produto5">
-                        <section class="but">
-                            <button>
-                                Ver Produto
-                            </button>
-                        </section>
-                </div>
-            </div>
-    </section>
-    <footer>
-        <p> <a href="https://github.com/Rafaelctb" target="_blank">&copy; Desenvolvido por Rafael Teixeira - Acesse meu
-                GitHub </a>
-       </p>
-    </footer>
+      <!--Logo-->
+      <a href="#" class="logo"><i class='bx bxs-shopping-Roupas'></i>Chromos</a>
+      <!--Menu Icon-->
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <!--Nav list-->
+      <ul class="navbar">
+      <li><a href="index.html">Início</a></li>   
+      <li><a href="#about">Sobre Nós</a></li>  
+      <li><a href="produtos.html">Produtos</a></li> 
+      <li><a href="carrinho.html">Carrinho</a></li> 
+      <li><a href="#contact">Contato</a></li>
+      </ul>
+      <!--Right Icons-->
+      <!-- <div class="header-icon">
+          <i class="bx bx-search" id="search-icon"></i>
+          <i class="bx bxs-cart-alt" ><span>0</span></i>
+      </div>
+         
+       <div class="search-box">
+          <input type="search" name="" id=""placeholder= "search here..." >  
+       </div>  -->
+                 
+      </div>
+  </header>
 
-    <script src="script.js"></script>
-</body>
+  <section class="home" id="home">
+      <div class="home-text">
+          <h1>Chromos Streetwear</h1>
+          <h3>"Uma <span>marca</span> pensada em você"</h3>
+          <p>"Vista a essência da moda streetwear com nossas roupas"</p>
+          <a href="produtos.html" class="btn">Confira nossa Coleção</a>           
+      </div>
+  
+      <div class="home-img">
+          <img src="img/IMG-Body.png" alt="">
+      </div>
+  </section>   
 
+  <section class="about" id="about">
+      <div class="about-img">
+          <img src="img/IMG-20.png" alt="">
+      </div>
+      <div class="about-text" >
+          <h2>Bem Vindo à CHROMOS</h2>
+          <p>Aqui, a gente vive e respira streetwear. Nossa missão é trazer roupas que não só seguem tendências, 
+              mas que ajudam você a criar o seu próprio estilo. Cada peça é feita com muito cuidado, combinando design
+              street e qualidade para você se sentir estiloso e confortável.
+             Se você curte roupas que refletem sua personalidade e te fazem se destacar, está no lugar certo. Vem com a 
+             gente e veja como a <strong>CHROMOS</strong> pode ser a sua cara!
+              
+              </p>                                    
+          <a href="https://www.instagram.com/chromos_stretwear?igsh=MXQ1DBb3RldDlsNw==" class="btn" >Nosso Instagram</a>
+      </div>
+  </section>   
+
+  <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4"
+          id="produtos-container"></div>
+      </div>
+
+     <!--NewsLetter-->
+     <section class="newsletter">
+      <h2>Escreva o que achou do nosso site<br>seu feedback é muito importante</h2>
+      <!--Form-->
+      <form action="">
+          <input type="email" marcador ="chromosstretwear@gmail.com"requerido>
+          <input type="submit"  value="Escreva" class="email-btn">
+      </form>
+
+<div class="copyright">
+<p>&#169;2024 Chromos Streetwear. Todos os direitos reservados.</p>
+<p>Desenvolvido por Rafael Teixeira</p>
+  <section class="footer" id="contact">
+  <div class="footer-box">
+    <h3>Suporte</h3>
+    <li><a href="produtos.html">Produto</a></li>
+    <li><a href="duvida-frequenteshtml.html">Ajuda</a></li>
+    <li><a href="politica-de-privacidade.html">Politica de privacidade</a></li>
+    <li><a href="duvida-frequenteshtml.html">Termos de uso</a></li>
+  </div>
+  
+  <div class="footer-box contact">
+   <h3>Contato</h3>
+   <span><i class='bx bxs-map'></i>Tapejara, PR</span>
+   <span><i class='bx bxs-phone'></i>+55 (44)99364993</span>
+   <span><i class='bx bxs-envelope'></i>chromosstreetwear@gmail.com</span>
+
+</div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="scripts/components.js"></script>
+  </body>
 </html>

@@ -1,58 +1,29 @@
+# loja-html-css-javaScript
 
-<br>
+Loja simples com HTML, CSS e JavaScript. Destaques, catálogo, carrinho e checkout. Responsivo para diferentes dispositivos. Foco na usabilidade.
 
-<div align = "center">
-<h1>Catálogo Profissional</h1>
-</div>
+![](/banner.png?raw=true)
 
-<h3 align = "center">
-  Página de um catálogo de roupas.
-</h3>
+## Funcionalidades Principais:
 
-<h4 align = "center">
-</h4>
-<br>
-<h3 align = "center">
-<a href="http://127.0.0.1:5500/index.html" target="_blank">Acesse o site - clique aqui!
-</a> 
-</h3>
+- **Loja**: Listar produtos, adicionar ao carrinho.
 
-<br>
- 
-</p>
-<br>
-<br>
+## Tecnologias Utilizadas:
 
-<div id="visao">
-<h1>  Visão geral </h1>
-Um modelo de um uma página inicial com um catálogo de roupas, com o layout simples e moderno, totalmente responsivo. Menu para desktop e para mobile, logotipo visível em todo o site. Contém um link direto para o WhatsApp e carrino para adicionae e remover os produtos.
+- HTML, CSS, JavaScript
+- **Bootstrap 5.3**: biblioteca de componentes.
 
-</div>
-<br>
-<br>
-<br>
+## Como Executar:
 
-<div id="leng">
-<h1>  Skills utilizadas </h1>
+1. Clone este repositório: `git clone https://github.com/GabrielSantosLemos/loja-html-css-javaScript.git`
+2. Navegue até o diretório do frontend: `cd loja-html-css-javaScript`
+3. Inicie com Go Live ou outros
+4. Navegue até [http://127.0.0.1:5500/](http://127.0.0.1:5500/) em seu navegador para visualizar o aplicativo.
 
+## Contribuição:
 
- <img align="center" alt="Mateus-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Mateus-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-  <img align="center" alt="Mateus-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+Contribuições são bem-vindas! Se você encontrar bugs ou desejar propor melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-</div>
-<br>
-<br>
-<br>
+## Licença:
 
-<div id="contato">
-<h1> Como entro em contato? </h1>
-
-Entre em contato através do link a seguir!
-<br>
-<br>
-<a href="https://www.linkedin.com/in/rafael-teixeira-b8940726a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-</div>
-<br>
-<br>
-<br>
+Este projeto é licenciado sob a Licença MIT.
