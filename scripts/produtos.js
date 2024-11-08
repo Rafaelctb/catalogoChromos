@@ -1,5 +1,77 @@
-// Lista de produtos
 const produtos = [
+  
+  {
+    foto: "img/Camiseta4.jpg",
+    nome: "Camiseta FIRE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta5.jpg",
+    nome: "Camiseta TRIP SIDE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta6.jpg",
+    nome: "Camiseta FIRE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta7.jpg",
+    nome: "Camiseta TRIP SIDE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta8.jpg",
+    nome: "Camiseta FIRE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta9.jpg",
+    nome: "Camiseta FIRE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta3.3.jpg",
+    nome: "Camiseta TRIP SIDE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta2.2.jpg",
+    nome: "Camiseta TRIP SIDE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
+  {
+    foto: "img/Camiseta1.jpg",
+    nome: "Camiseta TRIP SIDE",
+    preco: 85.00,
+    descricao: `
+  
+    `,
+  },
   {
     foto: "img/BackgroundEraser_20240718_125345883.jpg",
     nome: "Camiseta 30.1 NIKE",

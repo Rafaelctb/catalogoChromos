@@ -11,3 +11,18 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("components/header.html", "header");
   loadComponent("components/footer.html", "footer");
 });
+
+function toggleImage(card) {
+  const image = card.querySelector('.card-img-top');
+  
+  card.classList.toggle('clicked');
+  
+  setTimeout(function() {
+    if (card.classList.contains('clicked')) {
+      image.src = "img/Camiseta1.2.jpg";
+    } else {
+      image.src = "img/Camiseta1.jpg";
+    }
+  }, 300);
+}
+
